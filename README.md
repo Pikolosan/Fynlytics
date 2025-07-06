@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fynlytics 
 
-## Getting Started
+Welcome to **StayEase**, a personal finance tracking application.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend:**  React and Next.Js
+- **Backend:** Node.js, Express.js 
+- **Database:** MongoDB and Prisma ORM 
+- **Authentication:** No authentication applied (Applied User database by adding a default user id in .env )
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Usage (Planned)
 
-To learn more about Next.js, take a look at the following resources:
+1. Ability to create add and visualize different bank accounts .
+2. Able to select budget and add transaction for each account from pre-defined categories
+3. Bar Charts to show monthly transactions and Pie chart to compare transactions in between different categories.
+4. Ability to see amount left from used budget.
+5. Monthly Email Support to remid your expenses in different categories and 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Status 
+1. Stage 1 Not finished
+  i.Home Page Comeplete
+  ii.Database Setup Complete
+  iii.Dashboard UI Incomplete
+2. Stuck at Error : 
+    function createAccount not abt to be import on client side (the function is serverside function)
