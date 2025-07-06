@@ -26,9 +26,11 @@ Welcome to **StayEase**, a personal finance tracking application.
 ---
 
 ## Status 
-1. Stage 1 Not finished
-i.Home Page Comeplete
-ii.Database Setup Complete
-iii.Dashboard UI Incomplete
-2. Stuck at Error : 
-    function createAccount not abt to be import on client side (the function is serverside function)
+1. Stage 1 - Not finished  
+   - Home Page Complete  
+   - Database Setup Complete  
+   - Dashboard UI Incomplete  
+
+2. Stuck at Error:  
+   - Function `createAccount` not able to be imported on client side (the function is a server-side function)
+
